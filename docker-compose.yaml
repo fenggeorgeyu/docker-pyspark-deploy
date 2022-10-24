@@ -3,7 +3,7 @@ services:
   pyspark:
     image: "jupyter/all-spark-notebook"
     volumes:
-      - ./data:/home/jovyan
+      - ./work:/home/jovyan/work
       - ~/git:/home/jovyan/git
     ports:
       - 8888:8888

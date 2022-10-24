@@ -1,5 +1,5 @@
-data/
-!data/_empty
+work/**
+!work/_empty
+
 .DS_Store
 ._.DS_Store
-
